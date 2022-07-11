@@ -66,16 +66,16 @@ async function create(req, res) {
 
     const favorite = await Favorite.create({
         id: req.body.animalData.id,
-        photo: req.body.animalData.photos[0].full,
+        photos: req.body.animalData.photos,
         name: req.body.animalData.name,
-        breeds: [req.body.animalData.breeds.primary, req.body.animalData.breeds.secondary],
+        breeds: req.body.animalData.breeds,
         age: req.body.animalData.age,
         size: req.body.animalData.size,
         gender: req.body.animalData.gender,
-        colors: [req.body.animalData.colors.primary, req.body.animalData.colors.secondary, req.body.animalData.colors.tertiary],
+        colors: req.body.animalData.colors,
         description: req.body.animalData.description,
-        contact: [req.body.animalData.contact.email, req.body.animalData.contact.phone],
-        note: "Enter a personal note for yourself here!"
+        contact: req.body.animalData.contact,
+        note: req.body.note.note
     }, (error, favorite) => {
         if (error) {
             console.log(error)
@@ -84,7 +84,7 @@ async function create(req, res) {
         else {
             console.log('created Favorite')
             // console.log(favorite)
-            User.updateOne({ name: req.body.user.user.name },
+            User.updateOne({ name: req.user.name },
                 {
                     $addToSet: {
                         favorites: favorite
@@ -131,7 +131,7 @@ async function update(req, res) {
             }
         }
     )
-// })
+    // })
 }
 
 // Delete route

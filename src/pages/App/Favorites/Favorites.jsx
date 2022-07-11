@@ -26,7 +26,7 @@ export default function Favorites({ user }) {
                     {favorites.map(animal => (
                         <div key={animal.id}>
                             <Link to={`/favorites/${animal.id}`} className="favorite-pet-card">
-                                <img className="favorite-pet-card-image" src={animal.photo} />
+                                <img className="favorite-pet-card-image" src={animal.photos[0].medium} />
                             </Link>
                             <div className="favorite-pet-card-name">{animal.name}</div>
                         </div>
