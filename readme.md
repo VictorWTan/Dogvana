@@ -28,7 +28,7 @@ ScreenShot
 ![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.31.48%20AM.png)
 ![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.32.12%20AM.png)
 ![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.32.29%20AM.png)
-![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.33.47%20AM.png)re
+![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.33.47%20AM.png)
 
 WireFrames
 ![App Screenshot](../Dogvana/wireFrames.png)
@@ -38,14 +38,14 @@ Stretch Goals
 ![App Screenshot](../Dogvana/StretchGoals.png)
 
 
-
+Heroku Link: https://dogvana.herokuapp.com/
 
 
 ## Tech Stack
 
 **Client:** React, javascript
 
-**Server:** Node, Express, mongoDb
+**Server:** Node, Express, mongoDb, Heroku
 
 **API:** PetFinder API
 
