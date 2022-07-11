@@ -23,12 +23,19 @@ Finally I would like the ability to create notes in each favorite animal because
 
 ## Screenshots
 
+ScreenShot
+![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.31.28%20AM.png)
+![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.31.48%20AM.png)
+![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.32.12%20AM.png)
+![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.32.29%20AM.png)
+![App Screenshot](../Dogvana/Screen%20Shot%202022-07-11%20at%209.33.47%20AM.png)re
+
 WireFrames
-![App Screenshot](https://www.figma.com/file/GQJ86dsBuDhYlClqWY4Fhq/Untitled)
+![App Screenshot](../Dogvana/wireFrames.png)
 ERD
-![App Screenshot](https://trello.com/1/cards/62bf106f8bddb8794c5569e1/attachments/62bf2c609cc04e4df273e4d1/previews/62bf2c619cc04e4df273e50b/download/Dogvana_ERD_%28draft%29.png)
+![App Screenshot](../Dogvana/erdDogvana.png)
 Stretch Goals 
-![App Screenshot](https://ibb.co/rFr3pF1)
+![App Screenshot](../Dogvana/StretchGoals.png)
 
 
 
@@ -39,4 +46,6 @@ Stretch Goals
 **Client:** React, javascript
 
 **Server:** Node, Express, mongoDb
+
+**API:** PetFinder API
 
