@@ -24,18 +24,18 @@ Finally I would like the ability to create notes in each favorite animal because
 ## Screenshots
 
 ScreenShot
-![App Screenshot](./Dogvana/Screen%20Shot%202022-07-11%20at%209.31.28%20AM.png)
-![App Screenshot](./Dogvana/Screen%20Shot%202022-07-11%20at%209.31.48%20AM.png)
-![App Screenshot](./Dogvana/Screen%20Shot%202022-07-11%20at%209.32.12%20AM.png)
-![App Screenshot](./Dogvana/Screen%20Shot%202022-07-11%20at%209.32.29%20AM.png)
-![App Screenshot](./Dogvana/Screen%20Shot%202022-07-11%20at%209.33.47%20AM.png)
+![App Screenshot](./Screen%20Shot%202022-07-11%20at%209.31.28%20AM.png)
+![App Screenshot](./Screen%20Shot%202022-07-11%20at%209.31.48%20AM.png)
+![App Screenshot](./Screen%20Shot%202022-07-11%20at%209.32.12%20AM.png)
+![App Screenshot](./Screen%20Shot%202022-07-11%20at%209.32.29%20AM.png)
+![App Screenshot](./Screen%20Shot%202022-07-11%20at%209.33.47%20AM.png)
 
 WireFrames
-![App Screenshot](./Dogvana/wireFrames.png)
+![App Screenshot](./wireFrames.png)
 ERD
-![App Screenshot](./Dogvana/erdDogvana.png)
+![App Screenshot](./erdDogvana.png)
 Stretch Goals 
-![App Screenshot](./Dogvana/StretchGoals.png)
+![App Screenshot](./StretchGoals.png)
 
 
 Heroku Link: https://dogvana.herokuapp.com/
